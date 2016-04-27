@@ -324,11 +324,12 @@
 										</artifact>
 									</artifacts>
 									<nameAndTag>nijisha/mt-mvn-vr-presentation:${project.version}</nameAndTag>
-									<serverId>docker-hub</serverId>
-									<registry>registry.hub.docker.com</registry>
+									
 									<push>true</push>
 								</image>
 							</images>
+							<serverId>docker-hub</serverId>
+							<registryURL>registry.hub.docker.com</registryURL>
 						</configuration>
 					</execution>
 					 <execution>
